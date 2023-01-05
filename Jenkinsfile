@@ -48,7 +48,7 @@ pipeline {
         stage('Branch') {
             agent any
             steps {
-                echo 'new_calcul'
+                echo 'main'
             }
         }
     }
