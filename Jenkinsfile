@@ -48,6 +48,12 @@ pipeline {
         stage('Branch') {
             agent any
             steps {
+                echo 'main'
+            }
+        }
+        stage('Branch') {
+            agent any
+            steps {
                 echo 'bravo'
             }
         }
